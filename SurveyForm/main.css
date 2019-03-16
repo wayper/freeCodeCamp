@@ -1,0 +1,161 @@
+body, .container {
+    background-color: rgb(162, 218, 218);
+    padding-top: 5px;
+    padding-bottom: 1px;
+    text-align: center;
+    font-family: 'Raleway', Helvetica, sans-serif;
+}
+
+#title {
+    font-weight: bold;
+}
+
+#survey-form {
+    margin: auto;
+    width: 920px;
+    border-radius: 5px;
+    background-color: rgb(243, 243, 243);
+    display: grid;
+    grid-template-columns: 45% 65%;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-areas:
+    "item1 item1"
+    "item2 item3"
+    "item4 item5"
+    "item6 item7"
+    "item8 item9"
+    "item10 item11"
+    "item12 item13"
+    "item14 item15"
+    "item16 item17"
+    "item18 item18";
+    padding-top: 15px;
+    padding-bottom: 17px;
+    align-items: stretch;
+}
+
+#name, #email, #number {
+    width: 300px;
+    height: 27px;
+    padding-left: 5px;
+    border: 1px solid rgb(196, 192, 192);
+    border-radius: 2px;
+}
+
+#dropdown {
+    width: 150px;
+    height: 30px;
+    background-color: rgb(190, 190, 190);
+    border-radius: 2px;
+}
+
+#comment {
+    width: 300px;
+    color: rgb(153, 149, 149);
+    padding-top: 5px;
+    padding-left: 5px;
+    border: 1px solid rgb(196, 192, 192);
+    border-radius: 2px;    
+}
+
+.item1 {
+    grid-area: item1;
+    text-align: left;
+    margin-left: 26%;
+    margin-right: auto;
+}
+
+.item2 {
+    grid-area: item2;
+    text-align: right;
+    align-self: center;
+}
+.item3 {
+    grid-area: item3;
+    text-align: left;
+}
+.item4 {
+    grid-area: item4;
+    text-align: right;
+    align-self: center;
+}
+.item5 {
+    grid-area: item5;
+    text-align: left;
+}
+.item6 {
+    grid-area: item6;
+    text-align: right;
+    align-self: center;
+}
+.item7 {
+    grid-area: item7;
+    text-align: left;
+}
+.item8 {
+    grid-area: item8;
+    text-align: right;
+}
+.item9 {
+    grid-area: item9;
+    text-align: left;
+}
+
+.item10 {
+    grid-area: item10;
+    text-align: right;
+}
+.item11 {
+    grid-area: item11;
+    text-align: left;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-row-gap: 10px;
+}
+.item12 {
+    grid-area: item12;
+    text-align: right;
+}
+.item13 {
+    grid-area: item13;
+    text-align: left;
+}
+.item14 {
+    grid-area: item14;
+    text-align: right;
+}
+.item15 {
+    grid-area: item15;
+    text-align: left;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-row-gap: 10px;
+
+}
+.item16 {
+    grid-area: item16;
+    text-align: right;
+}
+.item17 {
+    grid-area: item17;
+    text-align: left;
+}
+.item18 {
+    grid-area: item18;
+    text-align: left;
+    margin-left: 40%;
+    margin-right: auto;
+}
+
+#submit {
+    width: 96px;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    background-color: rgb(57, 175, 214);
+    border: 0px;
+    border-radius: 4px;
+}

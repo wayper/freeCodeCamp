@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(240, 228, 207);
+    font-size: 18px;
+}
+
+#navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+}
+
+
+#main-doc {
+    margin-left: 320px;  
+}
+
+@media (max-width: 815px) {
+    #navbar {
+        position: relative;
+        margin-left: 0px;
+        width: auto;
+        height: auto;
+}
+}
+
+@media (max-width: 815px) {
+#main-doc {
+    position: relative;
+    margin-left: 10px;
+}
+}
+
+#header-nav {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+    font-size: 30px;
+    color: brown;
+    text-shadow: 0 0 40px brown;
+
+}
+
+#navbar ul {
+    list-style-type: none;
+    padding: 0;
+
+    font-size: 0;
+    background: linear-gradient(to left,  rgb(240, 228, 207), rgb(207, 101, 101));
+
+    height: 77%;
+    display: block;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+}
+
+#navbar ul a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+
+    font-size: 0;
+    display: table;
+    width: 100%;
+}
+
+#navbar ul li {
+    margin: 0;
+    text-align: left;
+    padding: 12px 25px;
+    color: black;
+    background: linear-gradient(to right, white, rgb(206, 111, 111));
+
+    border: 2px solid rgb(240, 228, 207);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    font-size: 18px;
+    font-weight: bold;
+    display: table-cell;
+	vertical-align: middle;
+}
+
+.content {
+    margin-left: 15px;
+}
+
+header {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#main-doc section header {
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul:last-child {
+    margin-bottom: 0;
+}
+
+ul .li-child {
+    list-style-type: circle;
+}
+
+ul .li-child:first-child {
+    margin-top: 10px;
+}
+
+
+code {
+    display: block;
+    width: auto;
+    white-space: pre;
+    text-align: left;
+    background-color: rgb(204, 205, 206);
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 30px;
+}

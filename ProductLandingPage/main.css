@@ -1,0 +1,161 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(219, 219, 217);
+}
+
+@media (max-width: 600px) {   
+.logo {
+    transition: 0.5s;
+    margin-left: -80px;
+}
+}
+
+.header {
+    height: 60px;
+    background-color:grey;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.logo {
+    position: absolute;
+    left: 100px;
+    top: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+}
+
+.logo #header-img {
+    width: 40px;
+    height: 40px;
+}
+
+.logo a {
+    text-decoration: none;
+    margin-left: 15px;
+    align-items: stretch;
+    align-self: center;
+}
+
+.logo a .logo-text:hover {
+    transition: 0.2s;
+    text-shadow: 0 0 40px greenyellow;
+}
+
+.logo-text {
+    margin: 0;
+    text-transform: uppercase;
+    color: greenyellow;
+    align-self: center;
+}
+
+.menu ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    line-height: 60px;
+    float: right;
+    padding-right: 50px;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: greenyellow;
+    padding-right: 20px;
+    font-size: 18px;
+    text-align: center;
+    min-width: 80px;
+}
+
+.menu ul li:hover {
+    transition: transform 0.2s;
+    transform: translateY(-5px);
+    border-bottom: 3px solid greenyellow;
+    height: 62px;
+}
+
+.menu ul li a {
+    color: greenyellow;
+    text-decoration: none;
+}
+
+.fixed {
+    margin: 0;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+/*  ** MAIN**  */
+
+/*  FORM  */
+
+#form  input[type="submit"] {
+    max-width: 150px;
+    width: 100%;
+    height: 35px;
+    border: 0;
+    background-color: rgb(49, 139, 212);
+    margin-top: 10px;
+}
+
+
+h2, p {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+.subsection-2-1, .subsection-2-2, .subsection-2-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.icon {
+    width: 200px;
+    text-align: center;
+    color: rgb(129, 80, 15);
+    font-size: 25px;
+
+}
+
+.description {
+    width: 800px;
+    text-align: left;
+
+}
+
+.part3 {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    padding: 0;
+}
+
+.subsection-3-1, .subsection-3-2, .subsection-3-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    width: auto;
+}
+
+/*  *FOOTER*   */
+
+footer {
+    height: 60px;
+    background-color:grey;
+    margin-top: 30px;
+}

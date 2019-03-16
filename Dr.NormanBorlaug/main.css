@@ -1,0 +1,42 @@
+.main {
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+    color: rgb(51, 51, 51);
+    border-radius: 5px;
+    padding-top: 15px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#img-div {
+    background-color: white;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: auto;
+}
+
+#img-caption {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main_dates {
+    text-align: left;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.more_info {
+    font-size: 18px;
+    height: 50px;
+}
